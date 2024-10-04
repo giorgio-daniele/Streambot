@@ -1,0 +1,49 @@
+{
+  "repetitions": 50,
+  "fastAwait":   5,
+  "longAwait":   10,
+
+  "homepage": "https://www.dazn.com/it-IT/home",
+  "channels": [
+    {
+      "link": "https://www.dazn.com/it-IT/home/2q7dj9g3q9k5o9dkncw7u8l36",
+      "name": "eurosport-1",
+      "protected": false
+    },
+    {
+      "link": "https://www.dazn.com/it-IT/home/eddggydwal0i1620hbjrk3ahw",
+      "name": "eurosport-2",
+      "protected": false
+    },
+    {
+      "link": "https://www.dazn.com/it-IT/home/8t2b2ul1hx7y00wn0hvggbgzi",
+      "name": "milan-tv",
+      "protected": false
+    },
+    {
+      "link": "https://www.dazn.com/it-IT/home/2sag7dm3qetjoyiuxpr9xqobw",
+      "name": "dazn-1",
+      "protected": false
+    },
+    {
+      "link": "https://www.dazn.com/it-IT/home/41qomr2230fmoabe9h4jy61z8",
+      "name": "radio-tv-serie-a",
+      "protected": false
+    },
+    {
+      "link": "https://www.dazn.com/it-IT/home/3okj5lq01okqn39tcv15wd0hi",
+      "name": "pga-tour",
+      "protected": false
+    }
+  ],
+  "sniffer": {
+    "bin": "/usr/bin/tshark",
+    "net": "enp1s0",
+    "max": "1500"
+  },
+  "login": {
+    "url": "https://www.dazn.com/it-IT/signin",
+    "username": "",
+    "password": ""
+  }
+}
